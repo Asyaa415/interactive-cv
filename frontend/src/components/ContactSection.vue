@@ -1,11 +1,13 @@
-<script setup>
-import SectionTitle from './SectionTitle.vue'
-</script>
 
 <template>
   <footer id="kontak" class="py-20 bg-gray-800 text-white">
     <div class="container mx-auto px-6 text-center">
-      <SectionTitle title="Hubungi Saya" />
+      <!-- Ganti ke h2 langsung jika tidak mau ubah SectionTitle.vue -->
+      <h2 class="text-3xl font-bold mb-4 text-grey-800">Hubungi Saya</h2>
+      <!-- Atau kalau kamu ubah SectionTitle.vue, pakai ini:
+      <SectionTitle title="Hubungi Saya" className="text-yellow-400" />
+      -->
+
       <p class="text-xl text-gray-300 mb-8">
         Jangan ragu untuk terhubung atau bertanya.
       </p>
@@ -18,8 +20,6 @@ import SectionTitle from './SectionTitle.vue'
       >
         Kirim Email
       </a>
-
-
 
       <div class="flex justify-center space-x-6 mb-8">
         <a

@@ -8,7 +8,6 @@ transition-all duration-300">Profil</a></li>
 
 <li><a href="#pendidikan" class="text-gray-600 hover:text-blue-500 transform hover:-translate-
 y-0.5 transition-all duration-300">Pendidikan</a></li>
-
 <li><a href="#skill" class="text-gray-600 hover:text-blue-500 transform hover:-translate-y-0.5
 transition-all duration-300">Skill</a></li>
 <li><a href="#proyek" class="text-gray-600 hover:text-blue-500 transform hover:-translate-y-0.5
