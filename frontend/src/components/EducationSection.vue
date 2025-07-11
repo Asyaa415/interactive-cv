@@ -9,7 +9,7 @@ const educationHistory = ref([])
 // Ambil data saat komponen dimount
 onMounted(async () => {
   try {
-    const res = await axios.get('https://interactive-cv-48mq.vercel.app/api/education')
+    const res = await axios.get('http://localhost:3000/api/education')
     educationHistory.value = res.data
   } catch (err) {
     console.error('Gagal mengambil data pendidikan:', err)
